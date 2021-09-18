@@ -1,1 +1,14 @@
-<p>home works!</p>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let movie of movies">
+      <div class="card">
+        <img [src]="getImages(movie.poster_path)" class="card-img-top" [alt]="movie.title">
+        <div class="text-rigth" style="position: absolute;">        
+            <span class="popularidad" >{{ movie.vote_count }}</span>
+        </div>  
+        <div class="card-body">
+          <h5 class="card-title">{{ movie.title }}</h5>
+          <p class="card-text">{{ movie.overview }}</p>
+        </div>
+      </div>
+    </div>
+  </div>

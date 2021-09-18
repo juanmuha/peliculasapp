@@ -1,0 +1,18 @@
+.popularidad
+{
+    border: 8px solid red;    
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-left: 322px;
+    margin-top: 585px;
+    text-align: center;
+    line-height: 59px;
+    border-radius: 100%;
+    font-size: 15px;
+    background-color: #111;
+    color: white;
+    font-weight: 300;
+    font-weight: bolder;
+
+}

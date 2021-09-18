@@ -11,6 +11,6 @@ export class PeliculasService {
    }
 
    getMovies() {
-    return this.http.get(`https://api.themoviedb.org/3/movie/popular?api_key=${ this.key }&language=en-ES&page=1`);
+    return this.http.get(`https://api.themoviedb.org/3/movie/now_playing?api_key=${ this.key }&language=es-mxs&page=1`);
    }
 }
